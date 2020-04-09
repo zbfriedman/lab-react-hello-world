@@ -1,0 +1,171 @@
+@media (min-width: 901px)
+    {body
+    {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+
+    .title
+    {
+        background-color: #D03631;
+        margin: 0px;
+        padding-top: 15px;
+        height: 70px;
+        font-family: 'Space Mono', monospace;
+        font-size: 40px;
+    }
+
+    .button-and-input-box
+    {
+        margin: 20px;
+    }
+
+    #input-text-box
+    {
+        height: 30px;
+        width: 200px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 2px rgba(208, 54, 49, 0.742) solid;
+    }
+
+    #input-text-box:focus
+    {
+        background-color: #a0a0a0;
+    }
+
+    #input-button
+    {
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: rgba(208, 54, 49, 0.742);
+        padding-top: 3px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    #input-button:hover
+    {
+        background-color: rgba(208, 54, 49, 1);
+    }
+
+    #todo-list
+    {
+        font-size: 20px;
+        list-style-position: inside;
+    }
+
+    #todo-list button
+    {
+        margin-right: 10px;
+        margin-left: 5px;
+        border-radius: 5px;
+        background-color: rgba(208, 54, 49, 0.742);
+        padding-top: 3px;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    li
+    {
+        border-bottom: 1px black solid;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px)
+{
+    body
+{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.title
+{
+    background-color: #D03631;
+    margin: 0px;
+    padding-top: 15px;
+    height: 40px;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+}
+
+.button-and-input-box
+{
+    margin: 20px;
+}
+
+#input-text-box
+{
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px rgba(208, 54, 49, 0.742) solid;
+}
+
+#input-text-box:focus
+{
+    background-color: #a0a0a0;
+}
+
+#input-button
+{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgba(208, 54, 49, 0.742);
+    padding-top: 3px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#input-button:hover
+{
+    background-color: rgba(208, 54, 49, 1);
+}
+
+#todo-list
+{
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+#todo-list button
+{
+    margin-right: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgba(208, 54, 49, 0.742);
+    padding-top: 3px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+li
+{
+    border-bottom: 1px black solid;
+    padding: 10px;
+}
+}
